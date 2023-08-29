@@ -1,0 +1,258 @@
+[
+  {
+    "id": "aria-hidden-focus",
+    "title": "`[aria-hidden=\"true\"]` elements contain focusable descendents",
+    "description": "Focusable descendents within an `[aria-hidden=\"true\"]` element prevent those interactive elements from being available to users of assistive technologies like screen readers. [Learn more](https://web.dev/aria-hidden-focus/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-134-DIV",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,3,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV",
+            "selector": "div#slick-node-landing-page-jumbo-custom-9999-2-slider > div.slick-list > div.slick-track > div#slick-slide01",
+            "boundingRect": {
+              "top": 305,
+              "bottom": 617,
+              "left": -398,
+              "right": 14,
+              "width": 412,
+              "height": 312
+            },
+            "snippet": "<div class=\"slick-slide\" data-slick-index=\"1\" aria-hidden=\"true\" style=\"width: 412px;\" role=\"tabpanel\" id=\"slick-slide01\" aria-describedby=\"slick-slide-control01\">",
+            "nodeLabel": "Colorado Geographic Naming Advisory Board\nNext Meeting\nThursday, August 17, 202…",
+            "explanation": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "27-54-A",
+                  "path": "1,HTML,1,BODY,0,DIV,1,DIV,3,DIV,0,DIV,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,1,A",
+                  "selector": "div.paragraph__column > div.container > div.jumbo_paragraph_body > a",
+                  "boundingRect": {
+                    "top": 557,
+                    "bottom": 599,
+                    "left": -356,
+                    "right": -80,
+                    "width": 276,
+                    "height": 43
+                  },
+                  "snippet": "<a href=\"https://dnr.colorado.gov/initiatives/colorado-geographic-naming-advisory-b…\" tabindex=\"0\">",
+                  "nodeLabel": "Read more about Colorado Geographic Naming Advisory Board"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "button-name",
+    "title": "Buttons do not have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-135-BUTTON",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,3,DIV,0,DIV,0,SECTION,0,DIV,1,NAV,0,BUTTON",
+            "selector": "section#block-contentfield > div#slick-node-landing-page-jumbo-custom-9999-2 > nav.slick__arrow > button.slick-prev",
+            "boundingRect": {
+              "top": 579,
+              "bottom": 585,
+              "left": 0,
+              "right": 16,
+              "width": 16,
+              "height": 6
+            },
+            "snippet": "<button type=\"button\" data-role=\"none\" class=\"slick-prev\" aria-label=\"\" tabindex=\"0\">",
+            "nodeLabel": "section#block-contentfield > div#slick-node-landing-page-jumbo-custom-9999-2 > nav.slick__arrow > button.slick-prev",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-136-BUTTON",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,3,DIV,0,DIV,0,SECTION,0,DIV,1,NAV,1,BUTTON",
+            "selector": "section#block-contentfield > div#slick-node-landing-page-jumbo-custom-9999-2 > nav.slick__arrow > button.slick-next",
+            "boundingRect": {
+              "top": 603,
+              "bottom": 609,
+              "left": 0,
+              "right": 16,
+              "width": 16,
+              "height": 6
+            },
+            "snippet": "<button type=\"button\" data-role=\"none\" class=\"slick-next\" aria-label=\"\" tabindex=\"0\">",
+            "nodeLabel": "section#block-contentfield > div#slick-node-landing-page-jumbo-custom-9999-2 > nav.slick__arrow > button.slick-next",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-137-IFRAME",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P,0,IFRAME",
+            "selector": "div.paragraph__column > div.field > p > iframe",
+            "boundingRect": {
+              "top": 5516,
+              "bottom": 6216,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 700
+            },
+            "snippet": "<iframe frameborder=\"0\" height=\"700\" scrolling=\"no\" src=\"https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ff…\" style=\"border:solid 1px #777\" width=\"100%\">",
+            "nodeLabel": "div.paragraph__column > div.field > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "27-138-H5",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,5,MAIN,0,DIV,2,DIV,0,SECTION,2,DIV,0,ARTICLE,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H5",
+            "selector": "div.paragraph__card > div.paragraph__column > div.field > h5.text-align-center",
+            "boundingRect": {
+              "top": 819,
+              "bottom": 841,
+              "left": 24,
+              "right": 388,
+              "width": 364,
+              "height": 22
+            },
+            "snippet": "<h5 class=\"text-align-center\">",
+            "nodeLabel": "Avalanche Info",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
