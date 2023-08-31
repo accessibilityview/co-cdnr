@@ -1,0 +1,565 @@
+[
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "/",
+    "lighthouseErrors": [
+      {
+        "id": "aria-hidden-focus",
+        "wcag": [
+          "1.3.1",
+          "4.1.2"
+        ],
+        "errorCount": 1
+      },
+      {
+        "id": "button-name",
+        "wcag": [
+          "4.1.2"
+        ],
+        "errorCount": 2
+      },
+      {
+        "id": "frame-title",
+        "wcag": [
+          "2.4.1",
+          "4.1.2"
+        ],
+        "errorCount": 1
+      },
+      {
+        "id": "heading-order",
+        "errorCount": 1
+      }
+    ],
+    "lighthouseErrorCount": 5,
+    "wcagErrors": [
+      {
+        "id": "1.3.1",
+        "lighthouse": "aria-hidden-focus",
+        "errorCount": 1
+      },
+      {
+        "id": "4.1.2",
+        "lighthouse": "aria-hidden-focus",
+        "errorCount": 1
+      },
+      {
+        "id": "4.1.2",
+        "lighthouse": "button-name",
+        "errorCount": 2
+      },
+      {
+        "id": "2.4.1",
+        "lighthouse": "frame-title",
+        "errorCount": 1
+      },
+      {
+        "id": "4.1.2",
+        "lighthouse": "frame-title",
+        "errorCount": 1
+      }
+    ],
+    "wcagErrorCount": 6
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "/",
+    "lighthouseErrors": [
+      {
+        "id": "aria-hidden-focus",
+        "wcag": [
+          "1.3.1",
+          "4.1.2"
+        ],
+        "errorCount": 1
+      },
+      {
+        "id": "button-name",
+        "wcag": [
+          "4.1.2"
+        ],
+        "errorCount": 2
+      },
+      {
+        "id": "frame-title",
+        "wcag": [
+          "2.4.1",
+          "4.1.2"
+        ],
+        "errorCount": 1
+      },
+      {
+        "id": "heading-order",
+        "errorCount": 1
+      }
+    ],
+    "lighthouseErrorCount": 5,
+    "wcagErrors": [
+      {
+        "id": "1.3.1",
+        "lighthouse": "aria-hidden-focus",
+        "errorCount": 1
+      },
+      {
+        "id": "4.1.2",
+        "lighthouse": "aria-hidden-focus",
+        "errorCount": 1
+      },
+      {
+        "id": "4.1.2",
+        "lighthouse": "button-name",
+        "errorCount": 2
+      },
+      {
+        "id": "2.4.1",
+        "lighthouse": "frame-title",
+        "errorCount": 1
+      },
+      {
+        "id": "4.1.2",
+        "lighthouse": "frame-title",
+        "errorCount": 1
+      }
+    ],
+    "wcagErrorCount": 6
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "about-us",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "alice-horgan",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "accessibility",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "careers",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "anti-speculation-law-work-group",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "carly-jacobs",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "EDI",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "chris-arend",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "co-geographic-naming-board-invites-public-to-submit-name-recommendations",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "colorado-geographic-naming-advisory-board",
+    "lighthouseErrors": [
+      {
+        "id": "link-name",
+        "wcag": [
+          "2.4.4",
+          "4.1.2"
+        ],
+        "errorCount": 1
+      }
+    ],
+    "lighthouseErrorCount": 1,
+    "wcagErrors": [
+      {
+        "id": "2.4.4",
+        "lighthouse": "link-name",
+        "errorCount": 1
+      },
+      {
+        "id": "4.1.2",
+        "lighthouse": "link-name",
+        "errorCount": 1
+      }
+    ],
+    "wcagErrorCount": 2
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "colorado-produced-water-consortium",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "colorado-scores-historic-wins-for-farmers-ranchers-water-public-lands-forests",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "contacts",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "EDI",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "alice-horgan",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "about-us",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "accessibility",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "anti-speculation-law-work-group",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "carly-jacobs",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "careers",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "chris-arend",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "climate",
+    "lighthouseErrors": [
+      {
+        "id": "heading-order",
+        "errorCount": 1
+      }
+    ],
+    "lighthouseErrorCount": 1,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "co-geographic-naming-board-invites-public-to-submit-name-recommendations",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "colorado-produced-water-consortium",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "colorado-geographic-naming-advisory-board",
+    "lighthouseErrors": [
+      {
+        "id": "link-name",
+        "wcag": [
+          "2.4.4",
+          "4.1.2"
+        ],
+        "errorCount": 1
+      }
+    ],
+    "lighthouseErrorCount": 1,
+    "wcagErrors": [
+      {
+        "id": "2.4.4",
+        "lighthouse": "link-name",
+        "errorCount": 1
+      },
+      {
+        "id": "4.1.2",
+        "lighthouse": "link-name",
+        "errorCount": 1
+      }
+    ],
+    "wcagErrorCount": 2
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "colorado-scores-historic-wins-for-farmers-ranchers-water-public-lands-forests",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "contacts",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "about-us/executive-directors-office-planning-and-budget",
+    "lighthouseErrors": [
+      {
+        "id": "heading-order",
+        "errorCount": 1
+      }
+    ],
+    "lighthouseErrorCount": 1,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "category/press-release",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "contacts/amie-kaufenberg",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "contacts/angela-boag",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "contacts/courtney-young",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "mobile",
+    "date": "2023-08-29",
+    "page": "contacts/johnie-abad",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "about-us/executive-directors-office-planning-and-budget",
+    "lighthouseErrors": [
+      {
+        "id": "heading-order",
+        "errorCount": 1
+      }
+    ],
+    "lighthouseErrorCount": 1,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "category/press-release",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "contacts/daphne-gervais",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "contacts/johnie-abad",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  },
+  {
+    "agency": "co-cdnr",
+    "type": "desktop",
+    "date": "2023-08-29",
+    "page": "contacts/jarrett-ellis",
+    "lighthouseErrors": [],
+    "lighthouseErrorCount": 0,
+    "wcagErrors": [],
+    "wcagErrorCount": 0
+  }
+]
